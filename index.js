@@ -3,7 +3,7 @@ var regionBucket = require('region-bucket')
 ;
 
 var locationParsers = {
-  'inline': function(payload) { return JSON.parse(payload.Body); }
+  'inline': function(payload) { return JSON.parse(payload.Body); },
   's3': function(payload) { throw new Error("Not yet implemented"); }
 };
 
