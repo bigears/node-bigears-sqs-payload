@@ -1,6 +1,6 @@
 {
   "name": "bigears-sqs-payload",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,5 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^2.9.13",
-    "region-bucket": "git://github.com/bigears/node-region-bucket"
   }
 }
